@@ -23,7 +23,7 @@ O site foi estruturado utilizando tags semânticas do HTML5 (como `<header>`, `<
 
 ## 🔗 Acesso ao Projeto
 Você pode visualizar o site funcionando diretamente pelo navegador através do link abaixo:
-👉 **teste**
+👉 **https://fpquaresma.github.io/petshop-fase1/**
 
 ---
 
