@@ -1,38 +1,20 @@
-# 🐾 Petshop do Marquinhos - Projeto Fase 1
+# 🐾 Petshop do Marquinhos - Projeto Fase 2
 
-Bem-vindo ao repositório do **Petshop do Marquinhos**! Este projeto foi desenvolvido como parte da Fase 1 da disciplina de **Fundamentos de Sistemas Web**.
+Bem-vindo ao repositório do **Petshop do Marquinhos**! Projeto desenvolvido por **Francisco Quaresma** para a disciplina de Fundamentos de Sistemas Web.
 
-## 🎯 Objetivo do Projeto
-O objetivo principal desta etapa foi construir a estrutura front-end básica de um sistema web para um petshop, aplicando conceitos fundamentais de desenvolvimento web e arquitetura da informação abordados nas aulas. 
+## 🎯 Objetivo da Fase 2
+Nesta segunda etapa, o sistema web estático foi aprimorado para se tornar uma plataforma interativa, dinâmica e acessível, cumprindo rigorosamente os requisitos das Aulas 6 a 10 da disciplina.
 
-A regra principal desta fase era **não utilizar CSS ou JavaScript**, focando exclusivamente na organização e semântica do código HTML puro.
+## ⚙️ Ajustes e Novas Funcionalidades
+Os seguintes ajustes foram realizados no código-fonte em relação à Fase 1:
 
-## ⚙️ Funcionalidades e Estrutura
-O site foi estruturado utilizando tags semânticas do HTML5 (como `<header>`, `<main>`, `<section>`, `<nav>` e `<footer>`) e apresenta as seguintes seções:
-
-* **Catálogo de Produtos:** Dividido em três categorias exigidas:
-    * Acessórios (Camas, brinquedos, etc.)
-    * Rações Não Perecíveis
-    * Produtos de Higiene e Limpeza
-* **Serviços Oferecidos:** Detalhamento do serviço de Banho e Tosa, especificando valores com e sem a opção de tele-busca.
-* **Informações de Contato:** Rodapé estruturado com endereço, telefone e e-mail.
-
-## 🛠️ Tecnologias Utilizadas
-* **HTML5:** Estruturação semântica e acessível.
-* **GitHub Pages:** Hospedagem da aplicação na nuvem.
+1. **Uso de CSS e Bootstrap:** Integração do framework Bootstrap para garantir a responsividade do layout e a implementação de um **Carrossel de Imagens** dinâmico na página inicial. Personalização avançada da tipografia utilizando o Google Fonts (fonte *Oldenburg*).
+2. **Formulários Avançados:** Criação de uma seção completa de "Cadastro e Agendamento". O formulário engloba a identificação do cliente, dados do pet e a escolha do serviço (com ou sem tele-busca). Foram utilizados múltiplos elementos HTML5, como `input` (text, tel, email, number), `radio`, `select`, `checkbox` e o calendário nativo `datetime-local`.
+3. **Interatividade com JavaScript:**
+   - **Funções Temporais:** Implementação de um relógio em tempo real no rodapé do site, atualizado via `setInterval`.
+   - **Manipulação do DOM:** Captura de dados do formulário na submissão (`submit`), travando o recarregamento com `preventDefault()` e exibindo um alerta (pop-up) personalizado com o nome do pet e a data do agendamento.
+4. **Acessibilidade Web:** Revisão estrutural para atender aos requisitos de acessibilidade para deficientes visuais, garantindo a audiodescrição detalhada através do atributo `alt` em 100% das imagens utilizadas no sistema.
 
 ## 🔗 Acesso ao Projeto
-Você pode visualizar o site funcionando diretamente pelo navegador através do link abaixo:
+O projeto está hospedado no GitHub Pages e pode ser testado ao vivo no link abaixo:
 👉 **https://fpquaresma.github.io/petshop-fase1/**
-
----
-
-## 👨‍💻 Sobre o Autor
-
-Olá! Eu sou o **Francisco Quaresma**, estudante de Análise e Desenvolvimento de Sistemas (ADS). 
-
-Sou de Parnaíba, Piauí, e tenho um forte interesse por programação e desenvolvimento web. Gosto de ter controle total sobre o meu ambiente de desenvolvimento, por isso utilizo o Arch Linux como meu sistema operacional principal. Sou uma pessoa bastante organizada, seja no código ou no acompanhamento das minhas finanças pessoais. 
-
-Quando não estou mergulhado nos projetos da faculdade ou codificando, gosto de ir à academia, relaxar jogando partidas de *World of Tanks* ou cuidando da fazenda no *Stardew Valley*, e sou um grande fã de *JoJo's Bizarre Adventure*. 
-
-Sinta-se à vontade para explorar o código e acompanhar a minha evolução na área de tecnologia!
